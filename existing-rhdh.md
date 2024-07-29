@@ -31,7 +31,7 @@ In an RHDH installation, there are two primary ConfigMaps that require modificat
                     path: /orchestrator
 ```
 
-The versions of the plugins may undergo updates, leading to changes in their integrity values. To ensure you are utilizing the latest versions, please consult the Helm chart values available [here](https://github.com/parodos-dev/orchestrator-helm-chart/blob/main/charts/orchestrator/templates/rhdh-operator.yaml#L159)). It's imperative to set both the version and integrity values accordingly.
+The versions of the plugins may undergo updates, leading to changes in their integrity values. To ensure you are utilizing the latest versions, please consult the Helm chart values available [here](https://github.com/parodos-dev/orchestrator-helm-chart/blob/stable-1.x/charts/orchestrator/values.yaml#L33). It's imperative to set both the version and integrity values accordingly.
 
 Additionally, ensure that the `dataIndexService.url` points to the service of the Data Index installed by the Chart/Operator.
 When installed by the Helm chart, it should point to `http://sonataflow-platform-data-index-service.sonataflow-infra`:
