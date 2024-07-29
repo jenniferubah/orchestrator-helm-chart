@@ -98,7 +98,7 @@ If persistence is enabled (which should be the default setting), ensure that the
 
 Once the ConfigMaps have been updated, it is necessary to restart the RHDH instance to implement the changes effectively.
 
-To import the Orchestrator software templates into the catalog via the Backstage UI, follow the instructions outlined in this [document](https://backstage.io/docs/features/software-templates/adding-templates). Register new templates into the catalog from the specified [source](https://github.com/parodos-dev/orchestrator-helm-chart/blob/main/charts/orchestrator/templates/rhdh-operator.yaml#L257)
+To import the Orchestrator software templates into the catalog via the Backstage UI, follow the instructions outlined in this [document](https://backstage.io/docs/features/software-templates/adding-templates). Register new templates into the catalog from the specified [source](https://github.com/parodos-dev/orchestrator-helm-chart/blob/stable-1.x/charts/orchestrator/templates/rhdh-operator.yaml#L309)
 
 ## Upgrade plugin versions
 
